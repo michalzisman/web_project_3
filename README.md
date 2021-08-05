@@ -15,4 +15,4 @@ BEM, flexbox, grid.
 
 **Link to GitHub Pages**
 
-
+https://michalzisman.github.io/web_project_3/
