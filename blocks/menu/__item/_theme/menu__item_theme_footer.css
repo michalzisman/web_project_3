@@ -1,0 +1,16 @@
+.menu__item_theme_footer {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .menu__item_theme_footer {
+        align-self: flex-start;
+        margin: 0px 0px 32px 0px;
+        /* margin-right: 0px;
+        margin-bottom: 32px; */
+    }
+
+    .menu__item_theme_footer:last-of-type {
+        margin: 0px 0px 48px 0px;
+    }
+} 
