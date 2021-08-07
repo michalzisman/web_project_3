@@ -5,4 +5,10 @@
     height: 100%;
     opacity: 0.3;
     transition: 0.3s;
+    top: 0;
+    left: 0;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
 }

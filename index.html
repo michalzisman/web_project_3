@@ -9,9 +9,9 @@
     <body class="page">
         <header class="header">
             <img class="logo" src="./images/logo.svg" alt="The USA logo">
-            <ul class="menu menu_theme_header">
-                <li class="menu__item"><a class="menu__link menu__link_theme_header" href="#">En</a></li>
-                <li class="menu__item"><a class="menu__link menu__link_theme_header" href="#">Es</a></li>
+            <ul class="header__menu">
+                <li class="header__menu-item"><a class="header__menu-link header__menu-link_focus" href="#">En</a></li>
+                <li class="header__menu-item"><a class="header__menu-link header__menu-link_focus" href="#">Es</a></li>
             </ul>
         </header>
 
@@ -68,7 +68,7 @@
             </section>
 
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Maine</h2>
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
@@ -79,13 +79,13 @@
                         <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history 
                             and majestic natural beauty. Maine is the main state you want to be sure not to miss. 
                             As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
-                        <p class="place__paragraph place__paragraph_theme_small">Thankfully, not only is Maine home to the very first European settlers on US territory 
+                        <p class="place__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory 
                             in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for 
                             your 3-month expedition.</p>
-                        <p class="place__paragraph place__paragraph_theme_small">Average cost: $80-100.</p>
+                        <p class="place__paragraph">Average cost: $80-100.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">New Hampshire</h2>
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
@@ -102,8 +102,8 @@
                             These boots are also better than cycling shoes when pitching a tent.</p>
                         <p class="place__paragraph">Average cost: $100-150.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">New York</h2>
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
@@ -118,8 +118,8 @@
                             So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through 
                             those dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Erie, PA</h2>
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
@@ -137,15 +137,15 @@
                             and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
                         <p class="place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Ohio</h2>
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
                         <a href="https://www.cedarpoint.com" target="_blank" class="place__link">cedarpoint.com</a>
                     </div>
                     <img src="./images/place-ohio.jpg" class="place__image" alt="Ohio">
-                    <div class="description">
+                    <div class="place__description">
                         <p class="place__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. 
                             Earthquakes are surprisingly common in this particular region of North America, over 200 of which have registered 
                             with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing shaking this centrally located state. 
@@ -154,7 +154,7 @@
                             Take a much-deserved break to ride as many roller coasters as you can before continue your bike ride!</p>
                         <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
                     </div>
-                </div>
+                </article>
             </section>
 
             <section class="cover"> 
@@ -169,11 +169,13 @@
         </main>
 
         <footer class="footer">
-            <ul class="menu menu_theme_footer">
-                <li class="menu__item menu__item_theme_footer"><a class="menu__link menu__link_theme_footer" href="https://yandex.com/maps" target="_blank">Maps</a></li>
-                <li class="menu__item menu__item_theme_footer"><a class="menu__link menu__link_theme_footer" href="https://yandex.com/weather/moscow" target="_blank">Weather</a></li>
-                <li class="menu__item menu__item_theme_footer"><a class="menu__link menu__link_theme_footer" href="https://calendar.yandex.ru" target="_blank">Calendar</a></li>
-            </ul>
+            <nav>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="https://yandex.com/maps" target="_blank">Maps</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="https://calendar.yandex.ru" target="_blank">Calendar</a></li>
+                </ul>
+            </nav>
             <p class="footer__copyright">&copy; 2021 Michal Zisman</p>
         </footer>
     </body>

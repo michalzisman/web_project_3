@@ -1,9 +1,0 @@
-.menu_theme_footer {
-    
-}
-
-@media screen and (max-width: 768px) {
-    .menu_theme_footer {
-        flex-direction: column;
-    }
-} 

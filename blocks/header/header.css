@@ -3,24 +3,24 @@
     width: calc(100% - (148px * 2));
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .header {
         margin: 34px auto 50px auto;
         width: calc(100% - (48px * 2));
     }
 } 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (max-width: 768px) {
     .header {
-        margin: 34px auto 50px auto;
         width: calc(100% - (24px * 2));
     }
 } 
 
-@media screen and (min-width: 320px ) and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .header {
-        margin: 34px auto 50px auto;
         width: calc(100% - (16px * 2));
     }
-} 
+}

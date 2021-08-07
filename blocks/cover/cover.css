@@ -1,40 +1,43 @@
 .cover {
     width: calc(100% - (48px * 2));
-    height: 740px;
+    min-height: 740px;
     margin: 0px auto 92px auto;
     position: relative;
     background-image: url("../../images/cover-route-66.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.cover:hover .cover__overlay {
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
+        min-height: 640px;
     }
 } 
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     .cover {
-        margin: 0px auto 92px auto;
-        height: 640px;
-    }
-} 
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .cover {
+        width: 100%;
+        min-height: 480px;
         margin: 0px auto 88px auto;
-        height: 480px;
     }
-}
+} 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .cover {
+        width: 100%;
+        min-height: 300px;
+        margin: 0px auto 88px auto;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 100%;
+        min-height: 200px;
         margin: 0px auto 64px auto;
-        height: 340px;
     }
 } 

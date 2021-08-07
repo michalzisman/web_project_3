@@ -1,0 +1,18 @@
+.footer__menu {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none; 
+}
+
+@media screen and (max-width: 660px) {
+    .footer__menu {
+        display: block;
+        margin: 0px 0px 32px 0px;
+    }
+
+    .footer__menu:last-of-type {
+        margin: 0px 0px 48px 0px;
+    }
+} 
