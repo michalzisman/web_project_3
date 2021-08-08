@@ -6,14 +6,13 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-gap: 48px 32px;
+        column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-gap: 48px 28px;
-        grid-template-columns: 40% 1fr;
+        column-gap: 28px;
     }
 }
 

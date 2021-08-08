@@ -15,6 +15,7 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         margin: 0px auto 88px auto;
+        /* Not sure if you consider the grid-gap a duplicate, since this value changes at 1024 and goes back to 16px here */
         grid-gap: 16px;
         width: calc(100% - (24px * 2));
     }
